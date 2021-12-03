@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jadwal Misa Umum</title>
+<link rel="stylesheet" type="text/css" id="applicationStylesheet" href="Jadwal_Misa_Umum.css"/>
+<script id="applicationScript" type="text/javascript" src="Jadwal_Misa_Umum.js"></script>
+</head>
+<body>
+<div id="Jadwal_Misa_Umum">
+	<svg class="Header_s">
+		<linearGradient id="Header_s" spreadMethod="pad" x1="0.5" x2="0.5" y1="0" y2="1">
+			<stop offset="0" stop-color="#f6c130" stop-opacity="1"></stop>
+			<stop offset="1" stop-color="#fff" stop-opacity="1"></stop>
+		</linearGradient>
+		<rect id="Header_s" rx="0" ry="0" x="0" y="0" width="1280" height="224">
+		</rect>
+	</svg>
+	<div id="Paroki_Santo_Stefanus_Purwosar">
+		<span>Paroki Santo Stefanus Purwosari<br/>Keuskupan Agung Purwokerto</span>
+	</div>
+	<svg class="TempatTabel">
+		<rect id="TempatTabel" rx="33" ry="33" x="0" y="0" width="955" height="469">
+		</rect>
+	</svg>
+	<div id="Jadwal_Misa">
+		<span>Jadwal Misa</span>
+	</div>
+	<div id="Hari">
+		<span>Hari</span>
+	</div>
+	<div id="Jam">
+		<span>Jam</span>
+	</div>
+	<div id="Kuota">
+		<span>Kuota</span>
+	</div>
+	<div onclick="application.goToTargetView(event)" id="Data_Umat">
+		<span>Data Umat</span>
+	</div>
+	<div onclick="application.goToTargetView(event)" id="Reservasi">
+		<span>Reservasi</span>
+	</div>
+	<div onclick="application.goToTargetView(event)" id="Home">
+		<span>Home</span>
+	</div>
+	<div onclick="application.goToTargetView(event)" id="Logout">
+		<span>Logout</span>
+	</div>
+</div>
+</body>
+</html>

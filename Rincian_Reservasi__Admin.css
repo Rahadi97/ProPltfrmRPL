@@ -1,0 +1,330 @@
+.mediaViewInfo {
+	--web-view-name: Rincian Reservasi  Admin;
+	--web-view-id: Rincian_Reservasi__Admin;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Rincian_Reservasi__Admin;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Rincian_Reservasi__Admin {
+	position: absolute;
+	width: 1280px;
+	height: 800px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Rincian Reservasi  Admin;
+	--web-view-id: Rincian_Reservasi__Admin;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Header_s {
+	fill: url(#Header_s);
+}
+.Header_s {
+	position: absolute;
+	overflow: visible;
+	width: 1280px;
+	height: 224px;
+	left: 0px;
+	top: 0px;
+}
+#Paroki_Santo_Stefanus_Purwosar {
+	left: 301px;
+	top: 23px;
+	position: absolute;
+	overflow: visible;
+	width: 679px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	color: rgba(0,0,0,1);
+}
+#Tempat_Table {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Tempat_Table {
+	position: absolute;
+	overflow: visible;
+	width: 955px;
+	height: 469px;
+	left: 163px;
+	top: 298px;
+}
+#Reservarsi {
+	left: 566px;
+	top: 310px;
+	position: absolute;
+	overflow: visible;
+	width: 149px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 31px;
+	color: rgba(0,0,0,1);
+}
+#ButtonPlus {
+	fill: rgba(246,196,58,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.ButtonPlus {
+	position: absolute;
+	overflow: visible;
+	width: 122px;
+	height: 53px;
+	left: 278px;
+	top: 685px;
+}
+#ButtonMin {
+	fill: rgba(246,196,58,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.ButtonMin {
+	position: absolute;
+	overflow: visible;
+	width: 122px;
+	height: 53px;
+	left: 485px;
+	top: 685px;
+}
+#ButtonEdit {
+	fill: rgba(246,196,58,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.ButtonEdit {
+	position: absolute;
+	overflow: visible;
+	width: 122px;
+	height: 53px;
+	left: 694px;
+	top: 685px;
+}
+#TAMBAH {
+	left: 296px;
+	top: 698px;
+	position: absolute;
+	overflow: visible;
+	width: 87px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#KURANGI {
+	left: 501px;
+	top: 698px;
+	position: absolute;
+	overflow: visible;
+	width: 91px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#EDIT {
+	left: 733px;
+	top: 698px;
+	position: absolute;
+	overflow: visible;
+	width: 45px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#Nama {
+	left: 288px;
+	top: 387px;
+	position: absolute;
+	overflow: visible;
+	width: 57px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Kuota {
+	left: 936px;
+	top: 387px;
+	position: absolute;
+	overflow: visible;
+	width: 57px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Jadwal {
+	left: 608px;
+	top: 387px;
+	position: absolute;
+	overflow: visible;
+	width: 65px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#ButtonPrint {
+	fill: rgba(246,196,58,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.ButtonPrint {
+	position: absolute;
+	overflow: visible;
+	width: 122px;
+	height: 53px;
+	left: 880px;
+	top: 685px;
+}
+#CETAK {
+	left: 911px;
+	top: 698px;
+	position: absolute;
+	overflow: visible;
+	width: 61px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#Edit_Data {
+	left: 997px;
+	top: 208px;
+	position: absolute;
+	overflow: visible;
+	width: 101px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Edit_Data_Umat_Admin.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+}
+#Jadwal_Misa {
+	left: 800px;
+	top: 208px;
+	position: absolute;
+	overflow: visible;
+	width: 133px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Jadwal_Misa_Admin.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+}
+#Home {
+	left: 667px;
+	top: 208px;
+	position: absolute;
+	overflow: visible;
+	width: 69px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Homepage_Admin.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+}
+#Logout {
+	left: 1162px;
+	top: 208px;
+	position: absolute;
+	overflow: visible;
+	width: 79px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+}

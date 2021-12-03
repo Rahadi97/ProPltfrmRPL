@@ -1,0 +1,225 @@
+.mediaViewInfo {
+	--web-view-name: Login Page;
+	--web-view-id: Login_Page;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Login_Page;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Login_Page {
+	position: absolute;
+	width: 1280px;
+	height: 800px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Login Page;
+	--web-view-id: Login_Page;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Header_s {
+	fill: url(#Header_s);
+}
+.Header_s {
+	position: absolute;
+	overflow: visible;
+	width: 1280px;
+	height: 224px;
+	left: 0px;
+	top: 0px;
+}
+#Paroki_Santo_Stefanus_Purwosar {
+	left: 301px;
+	top: 23px;
+	position: absolute;
+	overflow: visible;
+	width: 679px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	color: rgba(0,0,0,1);
+}
+#KotakEstetik {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.KotakEstetik {
+	position: absolute;
+	overflow: visible;
+	width: 424px;
+	height: 326px;
+	left: 428px;
+	top: 302px;
+}
+#LOGIN {
+	left: 593px;
+	top: 329px;
+	position: absolute;
+	overflow: visible;
+	width: 95px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 31px;
+	color: rgba(0,0,0,1);
+}
+#KolomEmail {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.KolomEmail {
+	position: absolute;
+	overflow: visible;
+	width: 332px;
+	height: 51px;
+	left: 474px;
+	top: 400px;
+}
+#KolomPass {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.KolomPass {
+	position: absolute;
+	overflow: visible;
+	width: 332px;
+	height: 51px;
+	left: 474px;
+	top: 465px;
+}
+#EMAIL {
+	left: 605px;
+	top: 409px;
+	position: absolute;
+	overflow: visible;
+	width: 71px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(133,122,122,1);
+}
+#PASSWORD {
+	left: 575px;
+	top: 472px;
+	position: absolute;
+	overflow: visible;
+	width: 131px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(133,122,122,1);
+}
+#ButtonEnter {
+	fill: rgba(246,196,58,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.ButtonEnter {
+	position: absolute;
+	overflow: visible;
+	width: 113px;
+	height: 41px;
+	left: 584px;
+	top: 554px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Homepage.html;
+	cursor: pointer;
+}
+#ENTER {
+	left: 611px;
+	top: 561px;
+	position: absolute;
+	overflow: visible;
+	width: 59px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(252,252,252,1);
+}
+#DAFTAR_DISINI {
+	left: 553px;
+	top: 647px;
+	position: absolute;
+	overflow: visible;
+	width: 176px;
+	height: 29px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Daftar_Baru.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(63,63,63,1);
+}
+#ADMIN {
+	left: 51px;
+	top: 728px;
+	position: absolute;
+	overflow: visible;
+	width: 83px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Homepage_Admin.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+}

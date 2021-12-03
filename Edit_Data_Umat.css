@@ -1,0 +1,279 @@
+.mediaViewInfo {
+	--web-view-name: Edit Data Umat;
+	--web-view-id: Edit_Data_Umat;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Edit_Data_Umat;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Edit_Data_Umat {
+	position: absolute;
+	width: 1280px;
+	height: 800px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Edit Data Umat;
+	--web-view-id: Edit_Data_Umat;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Header_s {
+	fill: url(#Header_s);
+}
+.Header_s {
+	position: absolute;
+	overflow: visible;
+	width: 1280px;
+	height: 224px;
+	left: 0px;
+	top: 0px;
+}
+#Paroki_Santo_Stefanus_Purwosar {
+	left: 301px;
+	top: 23px;
+	position: absolute;
+	overflow: visible;
+	width: 679px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	color: rgba(0,0,0,1);
+}
+#TempatTabel {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.TempatTabel {
+	position: absolute;
+	overflow: visible;
+	width: 955px;
+	height: 469px;
+	left: 163px;
+	top: 298px;
+}
+#Data_Umat {
+	left: 562px;
+	top: 298px;
+	position: absolute;
+	overflow: visible;
+	width: 157px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 31px;
+	color: rgba(0,0,0,1);
+}
+#ButtonEdit {
+	fill: rgba(246,196,58,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.ButtonEdit {
+	position: absolute;
+	overflow: visible;
+	width: 122px;
+	height: 53px;
+	left: 579px;
+	top: 690px;
+}
+#EDIT {
+	left: 618px;
+	top: 703px;
+	position: absolute;
+	overflow: visible;
+	width: 45px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#No_KTP {
+	left: 195px;
+	top: 384px;
+	position: absolute;
+	overflow: visible;
+	width: 77px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Nama {
+	left: 364px;
+	top: 384px;
+	position: absolute;
+	overflow: visible;
+	width: 57px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#No_Telp {
+	left: 674px;
+	top: 384px;
+	position: absolute;
+	overflow: visible;
+	width: 79px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Alamat {
+	left: 513px;
+	top: 384px;
+	position: absolute;
+	overflow: visible;
+	width: 69px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Password {
+	left: 990px;
+	top: 384px;
+	position: absolute;
+	overflow: visible;
+	width: 89px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Email {
+	left: 845px;
+	top: 384px;
+	position: absolute;
+	overflow: visible;
+	width: 53px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Jadwal_Misa {
+	left: 967px;
+	top: 208px;
+	position: absolute;
+	overflow: visible;
+	width: 133px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Jadwal_Misa_Umum.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+}
+#Reservasi {
+	left: 800px;
+	top: 208px;
+	position: absolute;
+	overflow: visible;
+	width: 103px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Reservasi_Umat.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+}
+#Home {
+	left: 667px;
+	top: 208px;
+	position: absolute;
+	overflow: visible;
+	width: 69px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Homepage.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+}
+#Logout {
+	left: 1164px;
+	top: 208px;
+	position: absolute;
+	overflow: visible;
+	width: 79px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+}

@@ -1,0 +1,270 @@
+.mediaViewInfo {
+	--web-view-name: Homepage Admin;
+	--web-view-id: Homepage_Admin;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Homepage_Admin;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Homepage_Admin {
+	position: absolute;
+	width: 1280px;
+	height: 800px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Homepage Admin;
+	--web-view-id: Homepage_Admin;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Rectangle_1_s {
+	fill: url(#Rectangle_1_s);
+}
+.Rectangle_1_s {
+	position: absolute;
+	overflow: visible;
+	width: 1280px;
+	height: 224px;
+	left: 0px;
+	top: 0px;
+}
+#Paroki_Santo_Stefanus_Purwosar {
+	left: 301px;
+	top: 23px;
+	position: absolute;
+	overflow: visible;
+	width: 679px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	color: rgba(0,0,0,1);
+}
+#Mask_Group_1 {
+	position: absolute;
+	width: 391px;
+	height: 391px;
+	left: -34px;
+	top: 304px;
+	overflow: visible;
+}
+#Selamat_Datang {
+	left: 355px;
+	top: 353px;
+	position: absolute;
+	overflow: visible;
+	width: 337px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	color: rgba(0,0,0,1);
+}
+#Berkah_Dalem {
+	left: 371px;
+	top: 436px;
+	position: absolute;
+	overflow: visible;
+	width: 239px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 39px;
+	color: rgba(0,0,0,1);
+}
+#KotakJadwal {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.KotakJadwal {
+	position: absolute;
+	overflow: visible;
+	width: 540px;
+	height: 266px;
+	left: 709px;
+	top: 275px;
+}
+#Jadwal_Misa {
+	left: 941px;
+	top: 282px;
+	position: absolute;
+	overflow: visible;
+	width: 93px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(0,0,0,1);
+}
+#Hari {
+	left: 810px;
+	top: 329px;
+	position: absolute;
+	overflow: visible;
+	width: 23px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 11px;
+	color: rgba(0,0,0,1);
+}
+#Jam {
+	left: 979px;
+	top: 329px;
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 11px;
+	color: rgba(0,0,0,1);
+}
+#Kuota {
+	left: 1121px;
+	top: 329px;
+	position: absolute;
+	overflow: visible;
+	width: 31px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 11px;
+	color: rgba(0,0,0,1);
+}
+#Jadwal_Misa_ {
+	left: 960px;
+	top: 208px;
+	position: absolute;
+	overflow: visible;
+	width: 133px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Jadwal_Misa_Admin.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+}
+#Data_Umat {
+	left: 792px;
+	top: 208px;
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Edit_Data_Umat_Admin.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+}
+#Reservasi {
+	left: 640px;
+	top: 208px;
+	position: absolute;
+	overflow: visible;
+	width: 103px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Rincian_Reservasi__Admin.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+}
+#Logout {
+	left: 1142px;
+	top: 208px;
+	position: absolute;
+	overflow: visible;
+	width: 79px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+}
+#Syarat_Mengikuti_Misa_Di_Gerej {
+	left: 718px;
+	top: 541px;
+	position: absolute;
+	overflow: visible;
+	width: 391px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(255,0,0,1);
+}
+#ID1_Berusia_18-59_tahun_2_Dala {
+	left: 718px;
+	top: 574px;
+	position: absolute;
+	overflow: visible;
+	width: 538px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}

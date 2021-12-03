@@ -1,0 +1,318 @@
+.mediaViewInfo {
+	--web-view-name: Daftar Baru;
+	--web-view-id: Daftar_Baru;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Daftar_Baru;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Daftar_Baru {
+	position: absolute;
+	width: 1280px;
+	height: 1940px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Daftar Baru;
+	--web-view-id: Daftar_Baru;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Header_s {
+	fill: url(#Header_s);
+}
+.Header_s {
+	position: absolute;
+	overflow: visible;
+	width: 1280px;
+	height: 224px;
+	left: 0px;
+	top: 0px;
+}
+#Paroki_Santo_Stefanus_Purwosar {
+	left: 301px;
+	top: 23px;
+	position: absolute;
+	overflow: visible;
+	width: 679px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	color: rgba(0,0,0,1);
+}
+#BIODATA {
+	left: 72px;
+	top: 299px;
+	position: absolute;
+	overflow: visible;
+	width: 145px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 31px;
+	color: rgba(0,0,0,1);
+}
+#NoKTP {
+	left: 72px;
+	top: 381px;
+	position: absolute;
+	overflow: visible;
+	width: 125px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 31px;
+	color: rgba(0,0,0,1);
+}
+#KolomID {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.KolomID {
+	position: absolute;
+	overflow: visible;
+	width: 604px;
+	height: 61px;
+	left: 72px;
+	top: 463px;
+}
+#Nama_Lengkap {
+	left: 72px;
+	top: 565px;
+	position: absolute;
+	overflow: visible;
+	width: 233px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 31px;
+	color: rgba(0,0,0,1);
+}
+#KolomNama {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.KolomNama {
+	position: absolute;
+	overflow: visible;
+	width: 604px;
+	height: 61px;
+	left: 72px;
+	top: 647px;
+}
+#Alamat {
+	left: 72px;
+	top: 749px;
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 31px;
+	color: rgba(0,0,0,1);
+}
+#KolomAlamat {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.KolomAlamat {
+	position: absolute;
+	overflow: visible;
+	width: 604px;
+	height: 280px;
+	left: 72px;
+	top: 831px;
+}
+#NoTelepon {
+	left: 72px;
+	top: 1152px;
+	position: absolute;
+	overflow: visible;
+	width: 181px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 31px;
+	color: rgba(0,0,0,1);
+}
+#KolomTelepon {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.KolomTelepon {
+	position: absolute;
+	overflow: visible;
+	width: 604px;
+	height: 61px;
+	left: 72px;
+	top: 1234px;
+}
+#Group_3 {
+	position: absolute;
+	width: 162px;
+	height: 59px;
+	left: 967px;
+	top: 1768px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Login_Page.html;
+	cursor: pointer;
+}
+#ButtonSelesai {
+	fill: rgba(246,196,58,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.ButtonSelesai {
+	position: absolute;
+	overflow: visible;
+	width: 162px;
+	height: 59px;
+	left: 0px;
+	top: 0px;
+}
+#SELESAI {
+	left: 35px;
+	top: 13px;
+	position: absolute;
+	overflow: visible;
+	width: 93px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+}
+#Email {
+	left: 72px;
+	top: 1336px;
+	position: absolute;
+	overflow: visible;
+	width: 95px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 31px;
+	color: rgba(0,0,0,1);
+}
+#KolomEmail {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.KolomEmail {
+	position: absolute;
+	overflow: visible;
+	width: 604px;
+	height: 61px;
+	left: 72px;
+	top: 1418px;
+}
+#Password {
+	left: 72px;
+	top: 1520px;
+	position: absolute;
+	overflow: visible;
+	width: 151px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 31px;
+	color: rgba(0,0,0,1);
+}
+#KolomPass {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.KolomPass {
+	position: absolute;
+	overflow: visible;
+	width: 604px;
+	height: 61px;
+	left: 72px;
+	top: 1602px;
+}
+#Harus_Diisi {
+	left: 72px;
+	top: 1826px;
+	position: absolute;
+	overflow: visible;
+	width: 139px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Nirmala UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(255,0,0,1);
+}
